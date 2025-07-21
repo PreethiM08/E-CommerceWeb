@@ -1,0 +1,12 @@
+const mysql=require('mysql2/promise');
+
+
+const pool=mysql.createPool({
+    host:'localhost',
+    user:'root',
+    password:'Preethi23PCS071',
+    database:'shopdata',
+    port: 3306
+});
+
+module.exports=pool;
