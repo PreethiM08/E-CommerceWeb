@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/E-CommerceWebApp/static/css/main.4d4431ff.css",
+    "main.js": "/E-CommerceWebApp/static/js/main.bf41d065.js",
+    "static/js/453.284d95b7.chunk.js": "/E-CommerceWebApp/static/js/453.284d95b7.chunk.js",
+    "static/media/sri.jpg": "/E-CommerceWebApp/static/media/sri.df15aa97031449214192.jpg",
+    "index.html": "/E-CommerceWebApp/index.html",
+    "main.4d4431ff.css.map": "/E-CommerceWebApp/static/css/main.4d4431ff.css.map",
+    "main.bf41d065.js.map": "/E-CommerceWebApp/static/js/main.bf41d065.js.map",
+    "453.284d95b7.chunk.js.map": "/E-CommerceWebApp/static/js/453.284d95b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d4431ff.css",
+    "static/js/main.bf41d065.js"
+  ]
+}
