@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+/* Avoid affecting body/html globally */
+
+.register-page {
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(to right, #ff6f61, #ffc300);
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.register-form {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    padding: 40px 30px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.register-form h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    color: #fff;
+    background: #b22222;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.register-form input {
+    padding: 12px 15px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 1rem;
+    color: #333;
+    transition: box-shadow 0.3s;
+}
+
+.register-form input:focus {
+    box-shadow: 0 0 0 3px #00b4d8;
+}
+
+.register-form button {
+    background: linear-gradient(135deg, #00b4d8, #90e0ef);
+    border: none;
+    padding: 12px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.register-form button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 480px) {
+    .register-form {
+        padding: 30px 20px;
+    }
+
+    .register-form h2 {
+        font-size: 1.5rem;
+    }
+
+    .register-form input,
+    .register-form button {
+        font-size: 0.95rem;
+    }
+}
