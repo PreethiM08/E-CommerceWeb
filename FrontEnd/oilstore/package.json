@@ -1,3 +1,4 @@
+"homepage": "https://PreethiM08.github.io/E-CommerceWebApp",
 {
   "name": "oilstore",
   "version": "0.1.0",
@@ -18,7 +19,15 @@
     "react-scripts": "^5.0.1",
     "recharts": "^3.1.0",
     "web-vitals": "^2.1.4"
-  },
+  },"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
