@@ -1,12 +1,15 @@
+require('dotenv').config();
+
 const bcrypt=require('bcrypt');
 const pool=require('../db');
 const jwt = require("jsonwebtoken");
 
 
-const ADMIN_EMAIL='admin19@gmail.com';
-const ADMIN_PASSWORD='admin@123';
-const ADMIN_ROLE='admin';
-const JWT_SECRET='PreeMscCs25';
+const ADMIN_EMAIL = process.env.ADMIN_EMAIL;
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD;
+const ADMIN_ROLE = process.env.ADMIN_ROLE;
+const JWT_SECRET = process.env.JWT_SECRET;
+
 
 const register=async (req,res)=>{
     const {name,phone,email,password,role}=req.body;
