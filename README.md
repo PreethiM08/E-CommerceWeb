@@ -78,7 +78,7 @@ It features secure admin controls, product management, and a responsive user int
 React app will typically run on http://localhost:3000
 
 ## 🔐 Admin Access :
-            To access admin-specific features, you may need to log in via special credentials defined in admin.js.
+To access admin-specific features, you may need to log in via special credentials defined in admin.js.
 Ensure this file is properly secured and not exposed in production deployments.
 
 ## 🛠️ Technologies Used
@@ -106,8 +106,24 @@ Ensure this file is properly secured and not exposed in production deployments.
     -> MySQL
 
 ## 📸 Screenshots 
-
- 
+<table>
+  <tr>
+  <td align="center">
+<img src="image/HomePage.png" width="300" style="margin-right:10px"/>
+    <b>HomePage</b></td>
+  <td align="center">
+<img src="image/RegisterPage.png" width="300" style="margin-right:10px"/>
+  <b>RegisterPage</b></td>
+  </tr>
+  <tr>
+  <td align="center">
+<img src="image/Login.png" width="300" style="margin-right:10px"/>
+    <b>HomePage</b></td>
+  <td align="center">
+<img src="image/RegisterPage.png" width="300" style="margin-right:10px"/>
+  <b>RegisterPage</b></td>
+  </tr>
+</table>
 ## 📝 To-Do / Future Enhancements
  
      -> Add payment integration (e.g., Razorpay or Stripe)
