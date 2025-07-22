@@ -9,7 +9,7 @@ function PaymentSuccess() {
             <h1 style={styles.heading}>✅ Payment Successful</h1>
             <p style={styles.message}>Thank you! Your order has been placed successfully.</p>
 
-            <button style={styles.button} onClick={() => navigate('/')}>
+            <button style={styles.button} onClick={() => navigate('/dashboard')}>
                 Back to Home
             </button>
         </div>

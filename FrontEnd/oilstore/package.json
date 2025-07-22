@@ -22,7 +22,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-<<<<<<< HEAD
   "start": "react-scripts start",
   "build": "react-scripts build",
   "test": "react-scripts test",
@@ -30,16 +29,9 @@
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
 },
-=======
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
 
->>>>>>> 395566d (Set up .env and configured secure DB connection)
+
+
   "eslintConfig": {
     "extends": [
       "react-app",

@@ -243,7 +243,14 @@ const Admin = () => {
 };
 
 const styles = {
-    container: { padding: '20px', position: 'relative', backgroundColor: '#FFFFC5' },
+    container: {
+        padding: '20px',
+        position: 'relative',
+        backgroundColor: '#FFFFC5',
+        minHeight: '100vh',
+        height: '100%',
+        boxSizing: 'border-box',
+        overflowY: 'auto', },
     backButton: {
         position: 'absolute',
         top: '20px',
