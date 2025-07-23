@@ -163,10 +163,8 @@ Ensure this file is properly secured and not exposed in production deployments.
 
     -> Deploy on cloud (e.g., Vercel for frontend, Render or Railway for backend)
 
-  ## 🔗 Project Links
-
-- [GitHub Repository](https://github.com/PreethiM08/E-CommerceWeb)
-
+ ## 📄 License
+This project is licensed under the MIT License.
 
 
 
