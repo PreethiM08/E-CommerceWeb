@@ -117,11 +117,40 @@ Ensure this file is properly secured and not exposed in production deployments.
   </tr>
   <tr>
   <td align="center">
-<img src="image/Login.png" width="300" style="margin-right:10px"/>
-    <b>HomePage</b></td>
+<img src="image/LoginPage.png" width="300" style="margin-right:10px"/>
+    <b>LoginPage</b></td>
   <td align="center">
-<img src="image/RegisterPage.png" width="300" style="margin-right:10px"/>
-  <b>RegisterPage</b></td>
+<img src="image/Dashboard.png" width="300" style="margin-right:10px"/>
+  <b>Dashboard</b></td>
+  </tr>
+   <tr>
+  <td align="center">
+<img src="image/OilPage.png" width="300" style="margin-right:10px"/>
+    <b>Oil Category Page</b></td>
+  <td align="center">
+<img src="image/SpicesPage.png" width="300" style="margin-right:10px"/>
+  <b>Dry Mix Spices Category Page</b></td>
+  </tr>
+   <tr>
+  <td align="center">
+<img src="image/CartPage.png" width="300" style="margin-right:10px"/>
+    <b>CartPage</b></td>
+  <td align="center">
+<img src="image/PaymentSuccessPage.png" width="300" style="margin-right:10px"/>
+  <b>Mock Payment SuccessPage</b></td>
+  </tr>
+   <tr>
+  <td align="center">
+<img src="image/AdminPage 1.png" width="300" style="margin-right:10px"/>
+    <b>Stock in Pie Chart</b></td>
+  <td align="center">
+<img src="image/AdminPage 2.png" width="300" style="margin-right:10px"/>
+  <b>Add New Products</b></td>
+  </tr>
+   <tr>
+  <td align="center">
+<img src="image/AdminPage 3.png" width="300" style="margin-right:10px"/>
+    <b>Increase or Delete the Stock</b></td>
   </tr>
 </table>
 ## 📝 To-Do / Future Enhancements
